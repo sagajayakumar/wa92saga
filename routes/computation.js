@@ -7,7 +7,7 @@ let alert = require('alert');
 /* GET my data page. */
 router.get('/', function(req, res, next) {
     var a = req.query.value;
-    res.send('abs applied to: ' + a + " is " + Math.abs(a));
+    res.send('cos applied to: ' + a + " is " + Math.cos(a));
 });
 
 
