@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET my data page. */
 router.get('/', function(req, res, next) {
-    const x = request.params.value;
+    const x = req.params.value;
     res.send('abs applied to: ' + x + " is " + Math.abs(x));
 });
 
